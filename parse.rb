@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 require 'csv'
 require_relative 'card.rb'
 
@@ -9,7 +9,7 @@ module Parse
       new_card = Card.new(line)
       deck << new_card
     end
-    binding.pry
+
     return deck
   end
 end
