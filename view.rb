@@ -24,13 +24,20 @@ class View
 
   def incorrect_prompt
     puts "_" * 45 + "\n" * 10
-    puts "\t\tWOMP WOMP! \n\tYou are incorrect, Try again!"
+    puts "\t\tWOMP WOMP! \n\n\tYou are incorrect, Try again!"
     puts "\n" * 10 + "_" * 45
   end
 
   def correct_prompt
     puts "_" * 45 + "\n" * 10
     puts "\tHOLY MOLY, You got it right!\n\t\t I'm shocked!"
+    puts "\n" * 10 + "_" * 45
+  end
+
+  def exit_message
+    puts "_" * 45 + "\n" * 10
+    puts "_" * 45 + "\n" * 10
+    puts "\tThanks\n\t\t   for\n\t\t\t   playing!"
     puts "\n" * 10 + "_" * 45
   end
 
